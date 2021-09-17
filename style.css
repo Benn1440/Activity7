@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+#Main {
+    display: flex;
+    flex-direction: row;
+    min-height: 7vh;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.topnav {
+    margin-left: 70px;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: silver;
+}
+.topnavIMG {
+    margin-right: 70px;
+}
+.topnavIMG:hover {
+    color: red;
+}
+
+.container1 {
+    background-image: url("IMG/hero-bg.jpg");
+    background-size: cover;
+    color: #fff;
+    min-width: 110vh;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.container1 hr {
+    margin-top: 30px;
+    width: 45%;
+    height: 10px;
+    background-color: #fff;
+    border: transparent;
+    margin: 20px;
+}
+/*
+.All {
+    justify-content: center;
+}*/
+.ICONS {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60pt;
+    padding: 30px;
+    height: 110vh;
+    justify-content: center;
+}
+.container1 h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+
+}
+.container1 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 6rem;
+    letter-spacing: 3px;
+}
+.Fonts {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.Fonts h4 {
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.Fonts .clean {
+    margin: 0 90px;
+}
+.Fonts img {
+    height: 50px; 
+    width: 50px;
+    color: #fff;
+}
+.middle {
+    background-color: rgb(247, 244, 244);
+}
+.Split {
+    text-align: center;
+    /*background-color: rgb(197, 197, 197);*/
+}
+.Split h3 {
+    padding-top: 150px;
+    color: rgb(148, 138, 138);
+    font-weight: lighter;
+    font-size: 3vh;
+}
+.Split h1 {
+    margin-top: 20px;
+    color: #000;
+    font-weight: bolder;
+    font-size: 6.5vmin;
+    letter-spacing: 1.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Split p {
+    max-width: 100%;
+    margin: 20px 350px 30px 350px;
+    color:rgb(41, 41, 41);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    /*letter-spacing: 1px;*/
+}
+.Split button {
+    padding:20px;
+    margin-bottom: 70px;
+    background-color: rgb(240, 41, 41);
+    color: #fff;
+    box-shadow: none;
+    border-radius: 5%;
+    text-decoration: none;
+    border-style: solid;
+    border: transparent;
+}
+.Container2 {
+    display: flex;
+    max-width: 85%;
+    margin: 40px 70px;
+    padding: 20px 5px 0 15px;
+}
+.firstset img {
+    padding-left: 90px;
+}
+.firstset p {
+    /*max-width: 50%;*/
+    justify-content: center;
+    margin: 60px 120px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1.1px;
+}
+.secondset  {
+    padding-left: 5px;
+}
+.secondset h1 {
+    margin-top: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 10px 2px;
+}
+.secondset h2 {
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 10px 2px;
+    color:rgb(240, 41, 41);
+}
+.Container3 {
+    display: flex;
+    background-color: rgb(201, 197, 197);
+    min-height: 30vmax;
+    padding-left: 15px;
+}
+.Container3 img{
+    padding-left: 100px;
+}
+.StandMan img{
+    max-height: 50vmax;
+}
+.Best{
+    max-width: 50%;
+    margin: 150px 100px 150px 100px;
+    justify-content: center;
+    padding: 1px;  
+}
+.Best h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(36, 6, 170);
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.Best hr {
+    margin-top: 30px;
+    max-width: 100%;
+    height: 10px;
+    background-color: rgb(228, 69, 69);
+    border: transparent;
+    margin: 20px;
+}
+.Best p {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 1rem;
+}
+.Best button {
+    padding:20px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    background-color: rgb(240, 41, 41);
+    color: #fff;
+    box-shadow: none;
+    border-radius: 5%;
+    text-decoration: none;
+    border-style: solid;
+    border: transparent;
+}
+.High {
+    padding: 40px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.Container4 {
+    display: flex;
+    margin: 0 100px;
+    padding-bottom: 80px;
+}
+.Container4 img {
+    height: 90px; 
+    width: 90px;
+    background-color: rgb(240, 65, 35);
+    border-radius: 50%;
+    padding: 10px;
+}
+.Container4 .EEE{
+    margin: 0 90px;
+}
+.Container4 h2 {
+    padding: 10px 0;
+}
+.Container4 p {
+    font-weight: bold;
+    font-style: italic;
+}
+.CONTAIN {
+    display: flex;
+    background-color: rgba(39, 6, 223, 0.836); 
+    padding: 80px;
+    /*max-width: 50%;*/
+}
+.Basic {
+    margin: 100px;
+    max-width: 50%;
+    color: white;
+}
+.Basic h5 {
+    font-size: 1rem;
+    word-spacing: 0.5rem;
+
+}
+.Basic h2 {
+    font-size: 5rem;  
+}
+.Basic h1 {
+    font-size: 5rem;
+}
+.FourImages {
+    display: flex;
+    padding: 10px;  
+}
+.FourImages img {
+    height: 200px;
+    width: 200px;
+}
+.FourImages .Column img {
+    padding: 10px;
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1; 
+}
+.LONGLAST {
+    margin: 0 300px 0 300px;
+}
+.ATLAS {
+    margin-top: 100px;
+}
+.LONGLAST .ATLAS h2 {
+   font-weight: bolder;
+   text-align: center;
+   font-size: 2rem;
+   margin-bottom: 30px;
+}
+.LONGLAST .ATLAS p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+ }
+.HLAST .HIASENN {
+    display: flex;
+    justify-content:space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.HLAST .HIASENN .BTN1 button{
+    padding:20px;
+    margin-bottom: 70px;
+    background-color: rgb(240, 41, 41);
+    color: #fff;
+    box-shadow: none;
+    border-radius: 5%;
+    text-decoration: none;
+    border-style: solid;
+    border: transparent;
+    padding-left: 10px;
+    
+}
+.HLAST .HIASENN .BTN2 button{
+    padding:20px;
+    margin-bottom: 70px;
+    padding-right: 50px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: none;
+    border: solid 0.5px black;
+    border-radius: 5%;
+    text-decoration: none;
+    border-style: solid;
+    font-style: inherit;
+    font-size: 0.8rem;
+    font-family: serif;
+    font-weight: bold;
+}
+.Final {
+    background-color: rgb(68, 66, 66);
+    text-align: center;
+    min-height: 15rem;
+    
+}
+.Final .Finish p {
+    padding: 50px;
+    padding-bottom: 8rem;
+    color: white;
+    margin: 0 250px;
+}
+/*.Final .Finish h6 {
+    color: white;
+}*/
+.Final .Finish a {
+   margin-bottom: 10rem;
+}
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        width: 100%;
+        margin:0px;
+        height:100%;
+      }
+    #Main {
+        width: 100%;
+        max-width: fit-content;
+       /* margin-left: 300px;*/
+        justify-content: space-between;
+    }
+    .topnav {
+        margin-left: 120px;
+    }
+    .topnavIMG {
+        margin-left: 250px;
+       
+    }
+    .topnav p {
+         font-size: 20px;
+         /*padding-left: 10px;*/
+         padding-right: 200px;
+        }
+        .ICONS h2 {
+            font-size: 30px;
+        }
+        .ICONS h1{
+            font-size: 40px;
+            word-spacing: 0.5rem;
+        }
+        .ICONS hr {
+            margin-left: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .Fonts .clean {
+            margin: 0 30px;
+        }
+    .container1 {
+        background-size: cover;
+        color: #fff;
+        min-width: 110vh;
+        max-height: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .middle h3 {
+        padding-top: 70px;
+        font-size: 30px;
+    }
+    .middle h1 {
+        font-size: 45px;
+    }
+    .middle p {
+        justify-content: center;
+        word-wrap: normal;
+        width: 50%;
+        text-align: center;
+    }
+    .Split p {
+        margin-left: 200px;
+        text-align: center;
+        justify-content: center;
+    } 
+    .firstset img {
+        width: 100%;
+    }
+    .Container3 {
+        min-height: 650px;
+        max-width: 100%;
+    }
+    .StandMan {
+        width: 50%;
+    }
+    .StandMan img {
+        min-height: 650px;
+        padding-left: 3px;
+        
+    }
+    .Best {
+        background-color: rgb(201, 197, 197);
+        margin-left: 0px;
+        min-height: 15rem;
+        max-width: 50%;
+    }
+    @media (max-width: 425px ) {
+        #Main {
+            width: 100%;
+            max-width: fit-content;
+           /* margin-left: 300px;*/
+            justify-content: space-between;
+        }
+    }
+        
+    
+    /*.ICONS {
+        max-width: 100%;
+        min-height: 110vh;
